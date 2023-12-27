@@ -1,13 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-- Commande install : npm install react-router-dom
-
-- commande install select : npm i --save react-select 
-- commande install carte : npm install leaflet
+Local Advisor est un projet de plateforme collaborative de recommandation et d'évaluation de points
+d'intérêts locaux (restaurants, hôtels, bars, activités, musées, etc...). Ce projet d'application web a
+pour objectif de permettre à tout visiteur de trouver un lieu de qualité correspondant à ses envies ou
+d'en vérifier la renommée. Basé sur la collaboration, les utilisateurs enregistrés ont la possibilité de
+laisser leur avis et notation.
