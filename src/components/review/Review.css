@@ -1,0 +1,284 @@
+/* ===========> CREATE REVIEW <=========== */
+.create-review {
+    /* display: flex;
+    flex-direction: row; */
+    border: .1rem solid #426B1F;
+    background: inherit;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+}
+
+.box-create {
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    width: 50rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
+.review-textarea {
+    border-radius: 6px;
+    padding: 2rem;
+    background: rgba(51, 113, 34, 0.688);
+    color: #272727;
+    width: 40rem;
+    text-align: justify;
+} 
+
+.image-logo {
+    font-size: 2rem;
+    color: #272727;
+}
+
+.reviewContentCreate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-grow: 3;
+}
+
+.review-inputRate{
+    border-radius: 6px;
+    padding: 2.8rem 2.4rem;
+    background: rgba(51, 113, 34, 0.688);
+    color: #272727;
+    width: 5rem;
+    font-size: 1.2rem;
+    margin-left: .8rem;
+}
+
+.reviewContentCreateRate {
+    flex-grow: 1;
+    width: 5rem;
+    margin-left: .1rem;
+}
+
+.reviewContentInputFile {
+    padding: 1rem 5rem;
+    border-radius: 6px;
+    width: 34rem;
+    background: rgba(51, 113, 34, 0.688);
+    font-size: 1.2rem;
+    text-align: start;
+    flex-grow: 4;
+}
+
+.createValidate {
+    margin-left: 1rem;
+    background-color: #426B1F;
+    width: 10rem;
+    padding: 1.1rem 1rem;
+}
+
+.createValidate:hover {
+    margin-left: 1rem;
+    background-color: #2684FE;
+}
+
+
+i {
+    color:#426B1F;
+    font-size: 1rem;
+}
+
+label {
+    color: #272727;
+}
+
+/* ===========> RENDER REVIEW <=========== */
+
+/* -----RENDER REVIEW------ */
+.renderMyReview {
+    display: flex;
+    flex-direction: column;
+    border-bottom: .1rem solid #426B1F;
+
+}
+
+/* -----REVIEW------ */
+/* -------> First container */
+.reviewContentFirst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.reviewContentUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar {
+    font-size: 3.6rem;
+    color: rgba(51, 113, 34, 0.688);
+    letter-spacing: 2rem;
+    padding-top: .7rem;
+}
+
+
+
+.reviewContentUsername {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.review-user {
+    font-weight: 600;
+    padding-bottom: inherit;
+    color: #272727;
+}
+
+.review-date {
+    padding: inherit;
+    color: grey;
+}
+
+.rate-comment {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #272727;
+}
+
+
+/* modif comment */
+
+/* .edit_review{
+    display: none;
+} */
+.edit_review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: 10;
+}
+.edit_review .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.edit_review input,
+.edit_review button{
+    width: 80%;
+}
+.edit_review input{
+    border-bottom: 2px solid black;
+}
+.x-btn{
+    position: relative;
+    top: -39%;
+    right: 3%;
+    font-size: 30px;
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.spanRate {
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: #272727;
+    font-weight: 200;
+}
+
+/* -------> Two container */
+.reviewContentTwo {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+}
+
+.reviewContentComment {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewDivComment {
+    flex-grow: 6;
+    padding: 0 2rem 0 1rem;
+    width: 25rem;
+}
+
+.reviewDivFile {
+    flex-grow: 2;
+    width: 10rem;
+}
+
+.reviewDivEdit {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.review-file {
+    height: 15rem;
+    object-fit: contain;
+    overflow: hidden;
+    width: 20rem;
+    background-color: inherit;
+}
+
+.review-comment {
+    height: 15rem;
+    /* width: 55rem; */
+    padding-left: 1.2rem;
+    text-align: justify;
+    color: #272727;
+    text-transform: initial;
+}
+
+.buttonReviewEdit, .buttonReviewDelete {
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+}
+
+.buttonReviewDelete {
+    background: #AD1F1B;
+}
+
+/* -------> Sublike container */
+.heart-like{
+    letter-spacing: .2rem;
+    color: rgba(51, 113, 34, 0.688);
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem 2rem;
+}
+
+.heart-like:hover {
+    border-color: .1rem solid #426B1F;
+}
+
+.sublikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2rem;
+
+}

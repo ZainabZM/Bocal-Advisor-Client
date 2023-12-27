@@ -1,0 +1,19 @@
+/* ===============> DASHBOARD <===============  */
+.sectionDashboard {
+    position: relative;
+    top: 6rem;
+}
+
+.titleStatut {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.identity {
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid rgba(51, 113, 34, 0.688);
+}
+
+.editButton {
+    margin-bottom: 2rem;
+}

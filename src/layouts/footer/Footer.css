@@ -1,0 +1,65 @@
+/* ========> Futur variable SCSS : Référence couleur <======== */
+/* $first-green: #426B1F */
+/* $dark-green: #182A10 */
+/* $dark: #272727 */
+/* $border: .1rem solid $dark */
+
+section {
+    padding: 2rem 9%;
+}
+
+.box-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: .2rem;
+    grid-row-gap: .5rem;
+}
+
+.box {
+    text-align: start;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #426B1F;
+    padding: .2rem 0;
+}
+
+a {
+    display: block;
+    font-size: 1rem;
+    color: #272727;
+    padding: .2rem 0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #182A10;
+}
+
+i {
+    color: #182A10;
+    padding-right: .5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #272727;
+    padding-bottom: 1rem;
+}
+
+
+.credits{
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.6rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: black;
+    border-top: .1rem solid #426B1F;
+}
+
+span {
+    color: #426B1F;
+}
