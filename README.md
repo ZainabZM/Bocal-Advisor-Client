@@ -1,4 +1,4 @@
-# React + Vite
+# BocalAdvisor
 
 Local Advisor est un projet de plateforme collaborative de recommandation et d'évaluation de points
 d'intérêts locaux (restaurants, hôtels, bars, activités, musées, etc...). Ce projet d'application web a
